@@ -11,3 +11,6 @@ wheels/
 
 # IntelliJ
 .idea/
+
+# dotenv file
+.env
