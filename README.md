@@ -1,8 +1,8 @@
-<div style="text-align: center;">
+<center>
 <h1>✨ Z-FastAPI-Template ✨</h1>
 A modern production-ready FastAPI boilerplate.
-</div>
-<div style="text-align: center;"><b>🇺🇸 EN</b> | <a href="./README.ru.md">🇷🇺 RU</a></div>
+</center>
+<center><b>🇺🇸 EN</b> | <a href="./README.ru.md">🇷🇺 RU</a></center>
 
 ### 🛠️ Libraries used
 
