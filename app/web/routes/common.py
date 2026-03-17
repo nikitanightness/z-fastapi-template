@@ -5,7 +5,7 @@ from app import config
 router = APIRouter(include_in_schema=False)
 
 
-@router.get("")
+@router.get("/")
 async def root() -> dict:
     return {
         "name": config.app.name,
