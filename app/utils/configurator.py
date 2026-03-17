@@ -19,14 +19,13 @@ class AppConfig(BaseConfig):
     host: str = Field(alias="APP_HOST", default="0.0.0.0")
     port: int = Field(alias="APP_PORT", default=8000)
 
-    enable_docs: bool = Field(alias="APP_ENABLE_DOCS", default=False)
-
-    proxy_mode: bool = Field(alias="APP_ENABLE_PROXY_MODE", default=False)
-    trusted_proxy_ips: list[str] = Field(alias="APP_TRUSTED_PROXY_IPS", default=["*"])
+    enable_docs: bool = Field(alias="ENABLE_DOCS", default=False)
+    enable_proxy_mode: bool = Field(alias="ENABLE_PROXY_MODE", default=False)
 
 
 class SecurityConfig(BaseConfig):
     cors_allowed_origins: list[str] = Field(alias="CORS_ALLOWED_ORIGINS", default=["*"])
+    trusted_proxy_ips: list[str] = Field(alias="TRUSTED_PROXY_IPS", default=["*"])
 
 
 class Config(BaseConfig):
