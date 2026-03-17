@@ -2,6 +2,7 @@
 <h1>✨ Z-FastAPI-Template ✨</h1>
 A modern production-ready FastAPI boilerplate.
 </div>
+<br/>
 <div align="center"><b>🇺🇸 EN</b> | <a href="./README.ru.md">🇷🇺 RU</a></div>
 
 ### 🛠️ Libraries used
