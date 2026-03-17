@@ -1,8 +1,8 @@
-<center>
+<div align="center">
 <h1>✨ Z-FastAPI-Template ✨</h1>
 Современный готовый к продакшену шаблон FastAPI приложения.
-</center>
-<center><a href="./README.md">🇺🇸 EN</a> | <b>🇷🇺 RU</b></center>
+</div>
+<div align="center"><a href="./README.md">🇺🇸 EN</a> | <b>🇷🇺 RU</b></div>
 
 ### 🛠️ Использованные библиотеки
 
