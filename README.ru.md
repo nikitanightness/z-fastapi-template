@@ -1,22 +1,33 @@
 <div align="center">
-<h1>✨ Z-FastAPI-Template ✨</h1>
-Современный готовый к продакшену шаблон FastAPI приложения.
+<h1>✨ Full Stack Template ✨</h1>
+Современный, готовый к продакшену шаблон веб-приложения.
 </div>
 <br/>
 <div align="center"><a href="./README.md">🇺🇸 EN</a> | <b>🇷🇺 RU</b></div>
 
-### 🛠️ Использованные библиотеки
+## ⁉️ Цель
 
-- [**uv**](https://github.com/astral-sh/uv) - современный менеджер python проектов.
-- [**FastAPI**](https://github.com/fastapi/fastapi) - веб-фреймворк.
-- [**Pydantic**](https://github.com/pydantic/pydantic) - валидация данных.
-- [**SQLAlchemy**](https://github.com/sqlalchemy/sqlalchemy) - orm для работы с бд.
+...
 
-### 🔗 Связанные проекты
+## 🔥 Фишки
 
-<!-- FIXME: Create nikitanightness/z-nextjs-template repo & add link to it here -->
+- ...
 
-- [**🏜️ Z-NextJS-Template**](https://github.com/nikitanightness/z-nextjs-template) — публичный шаблон фронтенда,
-  разработанный специально для этого бэкэнда.
+## ⚡️ Используемый Стэк
+
+**🛠️ Backend**
+
+- **🐍 Python 3.14** (с [**📦 uv**](https://docs.astral.sh/uv/))
+- **🫙 PostgreSQL**
+- [**⭐️ FastAPI**](https://fastapi.tiangolo.com/)
+- [**🗂️ Pydantic 2**](https://docs.pydantic.dev/latest/)
+- [**📚 SQLAlchemy**](https://docs.sqlalchemy.org/en/20/)
+
+**🌌 Frontend**
+
+- **💙 TypeScript**
+- [**🔮 Next.js**](https://nextjs.org/docs) (App Router)
+- [**🪄 Tailwind CSS 4**](https://tailwindcss.com/)
+- [**💎 shadcn/ui**](https://ui.shadcn.com/)
 
 made with 💜 by [renzee](https://rnzpowered.com)
