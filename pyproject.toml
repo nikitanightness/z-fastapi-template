@@ -7,11 +7,14 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "asyncpg>=0.31.0",
     "fastapi>=0.135.1",
+    "greenlet>=3.3.2",
     "orjson>=3.11.7",
     "pydantic>=2.12.5",
     "pydantic-extra-types>=2.11.1",
     "pydantic-settings>=2.13.1",
+    "sqlalchemy>=2.0.48",
     "starlette>=0.52.1",
     "uvicorn>=0.42.0",
 ]
