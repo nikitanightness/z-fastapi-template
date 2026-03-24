@@ -26,7 +26,7 @@ class AppConfig(BaseConfig):
 class DatabaseConfig(BaseConfig):
     _db_url: PostgresDsn = Field(
         alias="DATABASE_URL",
-        default="postgres+asyncpg://postgres:postgres@postgres:5432/database",
+        default="postgresql+asyncpg://postgres:postgres@postgres:5432/database",
     )
 
     @property
