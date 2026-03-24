@@ -1,28 +1,32 @@
-import { ReactNode } from "react"
-import { JetBrains_Mono, Space_Grotesk, Oxanium } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
-import { cn } from "@/lib/utils"
-import "./globals.css"
+import { ReactNode } from "react";
+
+import { JetBrains_Mono, Oxanium, Space_Grotesk } from "next/font/google";
+
+import { cn } from "@/lib/utils";
+
+import { ThemeProvider } from "@/components/theme-provider";
+
+import "./globals.css";
 
 const FONT_OXANIUM = Oxanium({
   subsets: ["latin"],
   variable: "--font-oxanium",
-})
+});
 
 const FONT_SPACE_GROTESK = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-space-grotesk",
-})
+});
 
 const FONT_JETBRAINS_MONO = JetBrains_Mono({
   subsets: ["latin", "cyrillic"],
   variable: "--font-jetbrains-mono",
-})
+});
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: ReactNode
+  children: ReactNode;
 }>) {
   return (
     <html
@@ -38,5 +42,5 @@ export default function RootLayout({
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
